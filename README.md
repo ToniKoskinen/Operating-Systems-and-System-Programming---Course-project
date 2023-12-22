@@ -1,1 +1,7 @@
-# Operating-Systems-and-System-Programming---Course-project
+# Operating Systems and System Programming | Course project
+This project consisted three smaller projects:
+* **Warmup to C and Unix programming**: The task was to create a program _reverse_ that prints the lines of user input or a file in reverse order. The input lines are printed on the screen or a file, depending on the command-line arguments, when calling the program. The task was solved using recursion.
+* **Unix Utilities**: The task was to create simple versions of commonly used Unix commands. Program _my-cat_ reads and prints the contents of the input files, given in the command-line arguments. Program _my-grep_ searches for matching text, based on command-line arguments, from the input files and prints the lines containing the given text. Programs _my-zip_ and _my-unzip_ can be used to compress files to binary format and back, using run-length encoding.
+* **Unix Shell**: The task was to create a simple Unix Shell program called _wish_, that could execute commands given by the user. The commands given to program can be user inputs or lines from a file. The program has three built-in-commands: _exit_, _cd_ and _path_, rest of the commands are executed using execv()-function. Each not-built-in-command is executed as a child process allowing user to launch parallel commands.
+
+Feel free to see the report related to this project; [HT_Koskinen_Toni.pdf](https://github.com/ToniKoskinen/Operating-Systems-and-System-Programming---Course-project/blob/main/HT_Koskinen_Toni.pdf) (in Finnish), to see more details and some examples about this project.
