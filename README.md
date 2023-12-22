@@ -1,4 +1,4 @@
-# Operating Systems and System Programming | Course project
+# Operating Systems and System Programming - Course project | Summer 2023
 This project consisted three smaller projects:
 * **Warmup to C and Unix programming**: The task was to create a program _reverse_ that prints the lines of user input or a file in reverse order. The input lines are printed on the screen or a file, depending on the command-line arguments, when calling the program. The task was solved using recursion.
 * **Unix Utilities**: The task was to create simple versions of commonly used Unix commands. Program _my-cat_ reads and prints the contents of the input files, given in the command-line arguments. Program _my-grep_ searches for matching text, based on command-line arguments, from the input files and prints the lines containing the given text. Programs _my-zip_ and _my-unzip_ can be used to compress files to binary format and back, using run-length encoding.
